@@ -4,10 +4,12 @@
 <head>
   <script src="./js/gasTracker.js"></script>
   <script src="./js/Gauge.js"></script>
+  <script src="./js/download.js"></script>
 </head>
 
 <body onload="init()">
   <input type="file" accept="image" onchange="loadImage(this);"></input>
+  <button id="downloadCSV" onclick="downloadCSV()">Download CSV</button>
   <div id="mainDiv"></div>
 </body>
 
